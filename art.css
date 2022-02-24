@@ -1,0 +1,88 @@
+@font-face {
+    font-family: ffmarksv;
+    src: url(ffmarksv/FontFont_FF.Mark.Pro.Black.otf);
+}
+
+input{
+    all: unset;
+}
+
+button{
+    all:unset;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: ffmarksv;
+    font-size: 30px;
+    background-image: linear-gradient(to bottom, #4d73ac, #8371b2, #b26da9, #d66b92, #e97474);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.loginBody{
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+    background-color: #224d4e;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 3px #0f5f62;
+    padding: 10px;
+    user-select: none;
+    box-sizing: border-box;
+
+}
+
+.loginTitle{
+    text-align: center;
+    color: #ffffff;
+}
+
+.loginUsername{
+    width: 100%;
+    padding: 1px 0px;
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 35px;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    outline: none;
+    background: transparent;
+}
+
+::placeholder{
+    color: #ffffff;
+}
+
+.loginButton{
+    border: 2px solid #0f5f62;
+    width: fit-content;
+    background-color: #224d4e;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 28px;
+    color: #ffffff;
+}
+
+.loginButton:active{
+    border: 4px solid #0f5f62;
+}
+
+
+
+/* .loginUsername, label {
+    top: 0;
+    left: 0;
+    padding: 10px 0px;
+    font-size: 18px;
+    color: #ffffff;
+    pointer-events: none;
+    transition: 0.5s;
+} */
