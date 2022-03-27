@@ -1,28 +1,29 @@
 <html>
     <head>
-        <link rel="stylesheet" href="art.css">
-        </link>
-
+        <link rel="stylesheet" href="art.css"></link>
     </head>
     <body>
         <div class="loginBody">
             <div class="loginTitle">
                 <p>Login</p>
             </div>
-            <form>
-                <div class="loginInput">
-                    <input type="text"  maxlength="15">
-                    <label>Username</label>
-                </div>
-                <div class="loginInput">
-                    <input type="password"  maxlength="10">
-                    <label>Password</label>
-                </div>
-                <button class="loginButton">Join</button>
-            </form>
+            <div class="loginInput">
+                <input type="text"  maxlength="15" placeholder="Usuário" class="inputText">
+            </div>
+            <div class="loginInput">
+                <input type="password"  maxlength="10" placeholder="Senha" class="inputPassword">
+            </div>
+            <div class="socialMediaLogin" >
+                <img  draggable="false" onclick="redesocial()" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1024px-Google_%22G%22_Logo.svg.png">
+                <img  draggable="false" onclick="redesocial()" src="https://logodownload.org/wp-content/uploads/2014/09/facebook-logo-3-1.png">
+                <img  draggable="false" onclick="redesocial()" src="https://cdn-icons-png.flaticon.com/512/174/174857.png">
+            </div>
+            <button class="loginButton" onclick="logar()">Join</button>
+            <div class="semConta">
+                <span onclick="forgotten()">Você não consegue logar?</span>
+                <span onclick="criaConta()">Criar sua conta</span>
+            </div>
         </div>
         <script src="script.js"></script>
     </body>
 </html>
-
-<!-- Animação do Label não está funcionando -->
